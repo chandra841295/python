@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_chandra841295_python_1702379683291-push-trigger-input-set
+  identifier: Build_chandra841295_python_1702379683291pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: sample_project
+  pipeline:
+    identifier: Build_chandra841295_python_1702379683291
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
